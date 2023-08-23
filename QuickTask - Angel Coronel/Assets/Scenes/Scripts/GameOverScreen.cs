@@ -7,9 +7,9 @@ public class GameOverScreen : MonoBehaviour
 {
     public Text pointsText;
 
-    public void Setup(int Score)
+    public void Setup(int Ending)
     {
         gameObject.SetActive(true);
-        pointsText.text = Score.ToString() + "POINTS";
+        pointsText.text = Ending.ToString() + "POINTS";
     }
 }
